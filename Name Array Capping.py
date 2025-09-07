@@ -1,7 +1,5 @@
 def cap_me(arr):
     output = []
-    if len(arr) == 0:
-        return []
     for element in arr:
         if element == "":
             output.append("")
